@@ -82,7 +82,7 @@ const Trending = ({ posts }) => {
     if (viewableItems.length > 0) {
       setActiveItem(viewableItems[0].key);
     }
-  });
+  },[]);
 
   return (
     <FlatList
